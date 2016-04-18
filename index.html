@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<script src="calc.js"></script>
+</head>
+<body>
+	<form id="calculator" name="calc" action="">
+		<input id="data" name="" type="text">
+		<p>
+			<input id="c" name="" type="button" value="C" onclick="drop();">
+			<input id="ce" name="" type="button" value="CE">
+		</p>
+		<input id="seven" name="" type="button" value="7" onclick="daivalue('seven');">
+		<input id="eight" name="" type="button" value="8" onclick="daivalue('eight');">
+		<input id="nine" name="" type="button" value="9" onclick="daivalue('nine');">
+		<input id="division" name="" type="button" value=" / " onclick="operation1('/');">
+		<input id="four" name="" type="button" value="4" onclick="daivalue('four');">
+		<input id="five" name="" type="button" value="5" onclick="daivalue('five');">
+		<input id="six" name="" type="button" value="6" onclick="daivalue('six');">
+		<input id="multiply" name="" type="button" value=" * " onclick="operation1('*');">
+		<input id="one" name="" type="button" value="1" onclick="daivalue('one');">
+		<input id="two" name="" type="button" value="2" onclick="daivalue('two');">
+		<input id="three" name="" type="button" value="3" onclick="daivalue('three');">
+		<input id="minus" name="" type="button" value=" - " onclick="operation1('-');;">
+		<input id="zero" name="" type="button" value="0" onclick="daivalue('zero');">
+		<input id="comma" name="" type="button" value="," onclick="daivalue('comma');">
+		<input id="plus" name="" type="button" value=" + " onclick="operation1('+');">
+		<input id="" name="" type="button" value="=" onclick="result1();">
+	</form>
+</body>
+</html>
